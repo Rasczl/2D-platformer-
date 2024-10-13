@@ -20,6 +20,7 @@ public class GamePanel extends JPanel {
 	
 	public void xDeltaMove(int value) {
 		this.xDelta += value;
+		//A repaint method would update the screen everytime there is movement
 		repaint();
 	}
 	public void yDeltaMove(int value) {
